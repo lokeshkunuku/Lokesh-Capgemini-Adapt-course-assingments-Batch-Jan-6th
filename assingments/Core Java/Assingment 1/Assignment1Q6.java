@@ -4,7 +4,7 @@ class Login {
     String userId = "Ajay",password = "password";
     public String loginUser(String user, String pass) {
         String message=" ";
-        String success="login_Successful";
+        String success="Welcome Ajay";
         String unsucess="login_unsuccesful";
         if(user.equals(userId)&&pass.equals(password))
         {
